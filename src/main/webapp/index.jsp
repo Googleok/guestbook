@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@page import="com.cafe24.guestbook.dao.GuestbookDao"%>
 <%@page import="com.cafe24.guestbook.vo.GuestbookVo"%>
+<%@page import="com.cafe24.guestbook.dao.GuestbookDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@page import="java.util.List"%>
 <%
 	GuestbookDao dao = new GuestbookDao();
-	List<GuestbookVo> list = dao.getList();	
+	List<GuestbookVo> list = dao.getList();
 %>
 <html>
 <head>
